@@ -23,12 +23,29 @@ body {
 
 }
 
+
 .display {
     background-color: #bccd95;
-    height: auto;
+    height: 70px;
     display: flex;
-    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2px;
+    margin-right: 4px;
     margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: initial;
+    text-align: right;
+    text-shadow: 1.3px 1.3px #383838;
+}
+
+#operatordisplay {
+    background-color: #bccd95;
+    height: auto;
+    font-size: 25px;
+    font-weight: initial;
+    text-align: left;
+    text-shadow: 1.3px 1.3px #383838;
 }
 
 button {
@@ -39,8 +56,9 @@ button {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     text-decoration: none;
-    margin-bottom: 5px;
-    margin-right: 5px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    border-radius: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,13 +71,14 @@ button:hover {
     color: white;
 }
 
+
 #ac {
     width: 50%;
-    background-color: #42e8f1;
+    background-color: #b6e8eb;
 }
 
-#equals {
-    background-color: #f24c4c;
+.result {
+    background-color: #e49b9b;
     width: 50%;
 }
 
